@@ -1,9 +1,9 @@
-# Notas Voz e Digitação
+# Notes Expert - NLW 14
 
-Descrição
-O projeto "Notas Voz e Digitação" tem como objetivo criar uma aplicação de notas simples, permitindo que o usuário insira suas anotações de duas maneiras: digitando manualmente ou usando reconhecimento de voz. A aplicação foi desenvolvida utilizando ReactJS com Vite como bundler. Além disso, a estilização foi feita utilizando Tailwind CSS e a criação de componentes foi facilitada com a utilização da biblioteca Radix UI.
+Descrição:
+O projeto "Notes Expert" tem como objetivo criar uma aplicação de notas simples, permitindo que o usuário insira suas anotações de duas maneiras: digitando manualmente ou usando reconhecimento de voz. A aplicação foi desenvolvida utilizando ReactJS com Vite como bundler. Além disso, a estilização foi feita utilizando Tailwind CSS e a criação de componentes foi facilitada com a utilização da biblioteca Radix UI.
 
-Funcionalidades
+Funcionalidades:
 Notas por Digitação: Os usuários podem inserir suas notas manualmente, digitando o conteúdo desejado.
 Reconhecimento de Voz: Utilizando a API Speech Recognition, o projeto permite aos usuários criar notas falando em seus microfones.
 Estilização Atraente: O projeto utiliza o Tailwind CSS para proporcionar uma experiência de usuário agradável e moderna.
@@ -46,7 +46,7 @@ Copy code
 npm run dev
 Acesse a aplicação no navegador: http://localhost:3000
 
-Contribuição
+Contribuição:
 Contribuições são bem-vindas! Se você quiser contribuir para o projeto, por favor siga estas etapas:
 
 Faça um fork do projeto.
