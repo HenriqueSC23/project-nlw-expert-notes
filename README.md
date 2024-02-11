@@ -1,5 +1,4 @@
-# React + TypeScript + Vite
-
+# Notas Voz e Digitação
 
 Descrição
 O projeto "Notas Voz e Digitação" tem como objetivo criar uma aplicação de notas simples, permitindo que o usuário insira suas anotações de duas maneiras: digitando manualmente ou usando reconhecimento de voz. A aplicação foi desenvolvida utilizando ReactJS com Vite como bundler. Além disso, a estilização foi feita utilizando Tailwind CSS e a criação de componentes foi facilitada com a utilização da biblioteca Radix UI.
