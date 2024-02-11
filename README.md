@@ -1,30 +1,58 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Descrição
+O projeto "Notas Voz e Digitação" tem como objetivo criar uma aplicação de notas simples, permitindo que o usuário insira suas anotações de duas maneiras: digitando manualmente ou usando reconhecimento de voz. A aplicação foi desenvolvida utilizando ReactJS com Vite como bundler. Além disso, a estilização foi feita utilizando Tailwind CSS e a criação de componentes foi facilitada com a utilização da biblioteca Radix UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Funcionalidades
+Notas por Digitação: Os usuários podem inserir suas notas manualmente, digitando o conteúdo desejado.
+Reconhecimento de Voz: Utilizando a API Speech Recognition, o projeto permite aos usuários criar notas falando em seus microfones.
+Estilização Atraente: O projeto utiliza o Tailwind CSS para proporcionar uma experiência de usuário agradável e moderna.
+Componentes Reutilizáveis: A criação de interfaces é facilitada com a utilização da biblioteca Radix UI, proporcionando componentes reutilizáveis e consistentes.
+Pré-requisitos
+Node.js e npm instalados
+Um navegador moderno compatível com as últimas especificações ECMAScript
+Instalação
+Clone o repositório para o seu ambiente local.
 
-## Expanding the ESLint configuration
+bash
+Copy code
+git clone https://github.com/seu-usuario/notas-voz-e-digitacao.git
+Acesse o diretório do projeto.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+bash
+Copy code
+cd notas-voz-e-digitacao
+Instale as dependências.
 
-- Configure the top-level `parserOptions` property like this:
+bash
+Copy code
+npm install
+Configuração
+Configuração da API Speech Recognition
+Obtenha uma chave de API para a Speech Recognition seguindo a documentação da API.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Crie um arquivo .env.local na raiz do projeto.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Adicione a chave de API ao arquivo .env.local.
+
+env
+Copy code
+REACT_APP_SPEECH_RECOGNITION_API_KEY=SuaChaveDeAPIAqui
+Uso
+Inicie a aplicação.
+
+bash
+Copy code
+npm run dev
+Acesse a aplicação no navegador: http://localhost:3000
+
+Contribuição
+Contribuições são bem-vindas! Se você quiser contribuir para o projeto, por favor siga estas etapas:
+
+Faça um fork do projeto.
+Crie uma branch para a sua contribuição.
+Faça as alterações desejadas.
+Faça um commit das suas alterações.
+Faça um push para a sua branch.
+Abra um Pull Request explicando suas alterações.
